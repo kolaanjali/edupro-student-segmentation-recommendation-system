@@ -22,7 +22,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    path = "data/EduPro Online Platform.xlsx"
+    path = "EduPro Online Platform.xlsx"
 
     users = pd.read_excel(path, sheet_name="Users")
     courses = pd.read_excel(path, sheet_name="Courses")
